@@ -14,6 +14,8 @@ global_phone >= 1.0.1
 
 ## Usage
 
+Install [global_phone](https://github.com/sstephenson/global_phone)
+
 Add to your Gemfile:
 
 ```ruby
