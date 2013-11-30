@@ -1,13 +1,14 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |s|
   s.name = "phone_validator"
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.platform = Gem::Platform::RUBY
   s.authors = "Sebastien Grosjean"
   s.email = "public@zencocoon.com"
   s.homepage = "http://github.com/ZenCocoon/phone_validator"
   s.summary = "A phone validator for Rails 3+."
   s.description = "phone_validator makes phone validation natural for ActiveModel 3+ objects. Validation using global_phone."
+  s.license = 'MIT'
 
   s.files = `git ls-files -- lib/*`.split("\n")
   s.test_files = `git ls-files -- {spec}/*`.split("\n")
